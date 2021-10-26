@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="js/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="result">
+  <input type="file" id="file">
+  <input type="button" value="上传" onclick="uploadFile()">
+</div>
+<script>
+  function uploadFile(){
+    var file=$("#file")[0].files[0];
+    var formData=new FormData();
+    formData.append("file",file);
+    formData.append("username","javaboy");
+    $.ajax({
+        type:'post',
+        url:'/upload',
+        processData:false,
+        contentType:false,
+        data:formData,
+        success:function (data){
+            $("#result").html(data);
+        }
+    })
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+<table class="table">
+    <thead>
+    <th>编号</th>
+    <th>名字</th>
+    <th>数量</th>
+    <th>详情</th>
+    </thead>
+    <tbody>
+    <tr th:each="lists:${pageInfo.list}">
+        <td th:text="${lists.bookID}"></td>
+        <td th:text="${lists.bookName}"></td>
+        <td th:text="${lists.bookCounts}"></td>
+        <td th:text="${lists.detail}"></td>
+    </tr>
+    </tbody>
+</table>
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <li th:if="${pageInfo.hasPreviousPage}">
+            <a th:href="'/test/'+${pageInfo.prePage}" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li th:each="nav:${pageInfo.navigatepageNums}">
+            <a th:href="'/test/'+${nav}" th:text="${nav}"></a>
+        </li>
+        <li th:if="${pageInfo.hasNextPage}">
+            <a th:href="'/test/'+${pageInfo.nextPage}" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

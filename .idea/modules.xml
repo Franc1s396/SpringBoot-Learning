@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Cache/Cache-Redis/Cache-Redis.iml" filepath="$PROJECT_DIR$/SpringBoot-Cache/Cache-Redis/Cache-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/Chat01.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/Chat01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/Chat02.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/Chat02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Actuator/SpringBoot-Actuator.iml" filepath="$PROJECT_DIR$/SpringBoot-Actuator/SpringBoot-Actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-CORS-1/SpringBoot-CORS-1.iml" filepath="$PROJECT_DIR$/SpringBoot-CORS-1/SpringBoot-CORS-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-CORS-2/SpringBoot-CORS-2.iml" filepath="$PROJECT_DIR$/SpringBoot-CORS-2/SpringBoot-CORS-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Cache/SpringBoot-Cache.iml" filepath="$PROJECT_DIR$/SpringBoot-Cache/SpringBoot-Cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-ControllerAdvice/SpringBoot-ControllerAdvice.iml" filepath="$PROJECT_DIR$/SpringBoot-ControllerAdvice/SpringBoot-ControllerAdvice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-DevTools/SpringBoot-DevTools.iml" filepath="$PROJECT_DIR$/SpringBoot-DevTools/SpringBoot-DevTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Cache/SpringBoot-EhCache/SpringBoot-EhCache.iml" filepath="$PROJECT_DIR$/SpringBoot-Cache/SpringBoot-EhCache/SpringBoot-EhCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Exception/SpringBoot-Exception.iml" filepath="$PROJECT_DIR$/SpringBoot-Exception/SpringBoot-Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-FastDFS/SpringBoot-FastDFS.iml" filepath="$PROJECT_DIR$/SpringBoot-FastDFS/SpringBoot-FastDFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-FileUpload/SpringBoot-FileUpload.iml" filepath="$PROJECT_DIR$/SpringBoot-FileUpload/SpringBoot-FileUpload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Idempontent/SpringBoot-Idempontent.iml" filepath="$PROJECT_DIR$/SpringBoot-Idempontent/SpringBoot-Idempontent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-JPA/SpringBoot-JPA.iml" filepath="$PROJECT_DIR$/SpringBoot-JPA/SpringBoot-JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-JSON/SpringBoot-JSON.iml" filepath="$PROJECT_DIR$/SpringBoot-JSON/SpringBoot-JSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-MybatisMulti/SpringBoot-MybatisMulti.iml" filepath="$PROJECT_DIR$/SpringBoot-MybatisMulti/SpringBoot-MybatisMulti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-PageHelper/SpringBoot-PageHelper.iml" filepath="$PROJECT_DIR$/SpringBoot-PageHelper/SpringBoot-PageHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-RESTful/SpringBoot-RESTful.iml" filepath="$PROJECT_DIR$/SpringBoot-RESTful/SpringBoot-RESTful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-SessionSharing/SpringBoot-SessionSharing.iml" filepath="$PROJECT_DIR$/SpringBoot-SessionSharing/SpringBoot-SessionSharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Swagger3/SpringBoot-Swagger3.iml" filepath="$PROJECT_DIR$/SpringBoot-Swagger3/SpringBoot-Swagger3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Test/SpringBoot-Test.iml" filepath="$PROJECT_DIR$/SpringBoot-Test/SpringBoot-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Validation/SpringBoot-Validation.iml" filepath="$PROJECT_DIR$/SpringBoot-Validation/SpringBoot-Validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/SpringBoot-WebSocket.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/SpringBoot-WebSocket.iml" />
+    </modules>
+  </component>
+</project>

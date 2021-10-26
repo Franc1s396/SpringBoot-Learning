@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringBoot-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-JSON/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-CORS-1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-CORS-2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-FileUpload/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-PageHelper/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-ControllerAdvice/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-JPAmulti/SpringBoot-MybatisMulti/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-MybatisMulti/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-SessionSharing/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Idempontent/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-DevTools/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Cache/Cache-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Cache/SpringBoot-EhCache/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-WebSocket/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Swagger/SpringBoot-Swagger3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Swagger3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Validation/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-FastDFS/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

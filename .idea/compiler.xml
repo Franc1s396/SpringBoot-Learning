@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot-FileUpload" />
+        <module name="SpringBoot-Test" />
+        <module name="Cache-Redis" />
+        <module name="SpringBoot-SessionSharing" />
+        <module name="Chat01" />
+        <module name="SpringBoot-CORS-2" />
+        <module name="Chat02" />
+        <module name="SpringBoot-Idempontent" />
+        <module name="SpringBoot-Cache" />
+        <module name="SpringBoot-WebSocket" />
+        <module name="SpringBoot-JSON" />
+        <module name="SpringBoot-Exception" />
+        <module name="SpringBoot-RESTful" />
+        <module name="SpringBoot-Swagger3" />
+        <module name="SpringBoot-ControllerAdvice" />
+        <module name="SpringBoot-EhCache" />
+        <module name="SpringBoot-JPA" />
+        <module name="SpringBoot-MybatisMulti" />
+        <module name="SpringBoot-Validation" />
+        <module name="SpringBoot-FastDFS" />
+        <module name="SpringBoot-CORS-1" />
+        <module name="SpringBoot-DevTools" />
+        <module name="SpringBoot-PageHelper" />
+        <module name="SpringBoot-Actuator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cache-Redis" target="11" />
+      <module name="Chat01" target="11" />
+      <module name="Chat02" target="11" />
+      <module name="SpringBoot-Actuator" target="11" />
+      <module name="SpringBoot-Cache" target="11" />
+      <module name="SpringBoot-ControllerAdvice" target="11" />
+      <module name="SpringBoot-CORS-1" target="11" />
+      <module name="SpringBoot-CORS-2" target="11" />
+      <module name="SpringBoot-DevTools" target="11" />
+      <module name="SpringBoot-EhCache" target="11" />
+      <module name="SpringBoot-Exception" target="11" />
+      <module name="SpringBoot-FastDFS" target="11" />
+      <module name="SpringBoot-FileUpload" target="11" />
+      <module name="SpringBoot-Idempontent" target="11" />
+      <module name="SpringBoot-JPA" target="11" />
+      <module name="SpringBoot-JSON" target="11" />
+      <module name="SpringBoot-MybatisMulti" target="11" />
+      <module name="SpringBoot-PageHelper" target="11" />
+      <module name="SpringBoot-RESTful" target="11" />
+      <module name="SpringBoot-SessionSharing" target="11" />
+      <module name="SpringBoot-Swagger3" target="11" />
+      <module name="SpringBoot-Test" target="11" />
+      <module name="SpringBoot-Validation" target="11" />
+      <module name="SpringBoot-WebSocket" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Cache-Redis" options="-parameters" />
+      <module name="Chat01" options="-parameters" />
+      <module name="Chat02" options="-parameters" />
+      <module name="SpringBoot-Actuator" options="-parameters" />
+      <module name="SpringBoot-CORS-1" options="-parameters" />
+      <module name="SpringBoot-CORS-2" options="-parameters" />
+      <module name="SpringBoot-Cache" options="-parameters" />
+      <module name="SpringBoot-ControllerAdvice" options="-parameters" />
+      <module name="SpringBoot-DevTools" options="-parameters" />
+      <module name="SpringBoot-EhCache" options="-parameters" />
+      <module name="SpringBoot-Exception" options="-parameters" />
+      <module name="SpringBoot-FastDFS" options="-parameters" />
+      <module name="SpringBoot-FileUpload" options="-parameters" />
+      <module name="SpringBoot-Idempontent" options="-parameters" />
+      <module name="SpringBoot-JPA" options="-parameters" />
+      <module name="SpringBoot-JSON" options="-parameters" />
+      <module name="SpringBoot-MybatisMulti" options="-parameters" />
+      <module name="SpringBoot-PageHelper" options="-parameters" />
+      <module name="SpringBoot-RESTful" options="-parameters" />
+      <module name="SpringBoot-SessionSharing" options="-parameters" />
+      <module name="SpringBoot-Swagger3" options="-parameters" />
+      <module name="SpringBoot-Test" options="-parameters" />
+      <module name="SpringBoot-Validation" options="-parameters" />
+      <module name="SpringBoot-WebSocket" options="-parameters" />
+    </option>
+  </component>
+</project>
