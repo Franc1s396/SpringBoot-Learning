@@ -5,7 +5,5 @@ spring:
     password: ma321388
     url: jdbc:mysql://localhost:3306/springbatch?useUnicode=true&characterEncoding=UTF-8&useSSL=false
   batch:
-    jdbc:
-      initialize-schema: always
     job:
-      enabled: true
+      enabled: false

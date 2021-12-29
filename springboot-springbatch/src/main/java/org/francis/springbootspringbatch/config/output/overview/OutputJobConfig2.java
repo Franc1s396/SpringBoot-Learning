@@ -1,17 +1,19 @@
-package org.francis.springbootspringbatch.config.input.db.jdbc;
+package org.francis.springbootspringbatch.config.output.overview;
 
+import org.francis.springbootspringbatch.config.input.db.jdbc.Customer;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
-import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
+import org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider;
+import org.springframework.batch.item.database.JdbcBatchItemWriter;
 import org.springframework.batch.item.database.JdbcPagingItemReader;
 import org.springframework.batch.item.database.Order;
+import org.springframework.batch.item.database.builder.JdbcBatchItemWriterBuilder;
 import org.springframework.batch.item.database.support.MySqlPagingQueryProvider;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -20,39 +22,44 @@ import java.util.HashMap;
 
 /**
  * @author Franc1s
- * @date 2021/12/28
+ * @date 2021/12/29
  * @apiNote
  */
 //@Configuration
-public class JdbcJobConfig {
+public class OutputJobConfig2 {
     @Autowired
-    private JobBuilderFactory jobBuilderFactory;
+    JobBuilderFactory jobBuilderFactory;
     @Autowired
-    private StepBuilderFactory stepBuilderFactory;
-    @Autowired
-    @Qualifier("jdbcItemWriter")
-    private ItemWriter<Customer> jdbcItemWriter;
+    StepBuilderFactory stepBuilderFactory;
     @Autowired
     DataSource dataSource;
-
     @Bean
-    public Job jdbcJob1() {
-        return jobBuilderFactory.get("jdbcJob1")
-                .start(jdbcStep1())
+    public Job outputJob2(){
+        return jobBuilderFactory.get("outputJob2")
+                .start(outputStep2())
                 .build();
     }
 
     @Bean
-    public Step jdbcStep1() {
-        return stepBuilderFactory.get("jdbcStep1")
-                .<Customer, Customer>chunk(100)
+    public Step outputStep2() {
+        return stepBuilderFactory.get("outputStep2")
+                .<Customer,Customer>chunk(10)
                 .reader(jdbcReader())
-                .writer(jdbcItemWriter)
+                .writer(jdbcWriter())
                 .build();
     }
 
     @Bean
-    @StepScope
+    public ItemWriter<? super Customer> jdbcWriter() {
+        JdbcBatchItemWriter<Object> itemWriter = new JdbcBatchItemWriter<>();
+        itemWriter.setDataSource(dataSource);
+        itemWriter.setSql("insert into customer(id,firstName,lastName,birthday) values "+
+                "");
+        itemWriter.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>());
+        return itemWriter;
+    }
+
+    @Bean
     public ItemReader<? extends Customer> jdbcReader() {
         JdbcPagingItemReader<Customer> itemReader = new JdbcPagingItemReader<>();
         itemReader.setDataSource(dataSource);
