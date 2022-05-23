@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Cache/Cache-Redis/Cache-Redis.iml" filepath="$PROJECT_DIR$/SpringBoot-Cache/Cache-Redis/Cache-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/Chat01.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/Chat01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/Chat02.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/Chat02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-consumer/RabbitMQ-consumer.iml" filepath="$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-consumer/RabbitMQ-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-provider/RabbitMQ-provider.iml" filepath="$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-provider/RabbitMQ-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Actuator/SpringBoot-Actuator.iml" filepath="$PROJECT_DIR$/SpringBoot-Actuator/SpringBoot-Actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-CORS-1/SpringBoot-CORS-1.iml" filepath="$PROJECT_DIR$/SpringBoot-CORS-1/SpringBoot-CORS-1.iml" />
@@ -22,11 +24,22 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-MybatisMulti/SpringBoot-MybatisMulti.iml" filepath="$PROJECT_DIR$/SpringBoot-MybatisMulti/SpringBoot-MybatisMulti.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-PageHelper/SpringBoot-PageHelper.iml" filepath="$PROJECT_DIR$/SpringBoot-PageHelper/SpringBoot-PageHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-RESTful/SpringBoot-RESTful.iml" filepath="$PROJECT_DIR$/SpringBoot-RESTful/SpringBoot-RESTful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBoot-RabbitMQ/SpringBoot-RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-SessionSharing/SpringBoot-SessionSharing.iml" filepath="$PROJECT_DIR$/SpringBoot-SessionSharing/SpringBoot-SessionSharing.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Swagger3/SpringBoot-Swagger3.iml" filepath="$PROJECT_DIR$/SpringBoot-Swagger3/SpringBoot-Swagger3.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Test/SpringBoot-Test.iml" filepath="$PROJECT_DIR$/SpringBoot-Test/SpringBoot-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Transaction/SpringBoot-Transaction.iml" filepath="$PROJECT_DIR$/SpringBoot-Transaction/SpringBoot-Transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Validation/SpringBoot-Validation.iml" filepath="$PROJECT_DIR$/SpringBoot-Validation/SpringBoot-Validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-WebSocket/SpringBoot-WebSocket.iml" filepath="$PROJECT_DIR$/SpringBoot-WebSocket/SpringBoot-WebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic_datasource/dynamic_datasource.iml" filepath="$PROJECT_DIR$/dynamic_datasource/dynamic_datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rate_limiter/rate_limiter.iml" filepath="$PROJECT_DIR$/rate_limiter/rate_limiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repeat_submit/repeat_submit.iml" filepath="$PROJECT_DIR$/repeat_submit/repeat_submit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-https/springboot-https.iml" filepath="$PROJECT_DIR$/springboot-https/springboot-https.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springbatch/springboot-springbatch.iml" filepath="$PROJECT_DIR$/springboot-springbatch/springboot-springbatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcode/springcode.iml" filepath="$PROJECT_DIR$/springcode/springcode.iml" />
     </modules>
   </component>
 </project>

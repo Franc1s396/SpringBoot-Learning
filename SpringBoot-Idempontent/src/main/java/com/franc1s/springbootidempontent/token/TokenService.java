@@ -21,9 +21,9 @@ public class TokenService {
 
     public boolean checkToken(HttpServletRequest request) throws IdempotentException {
         String token = request.getHeader("token");
-        if (StringUtils.isEmpty(token)){
+        if (StringUtils.hasText(token)){
             token=request.getParameter("token");
-            if (StringUtils.isEmpty(token)){
+            if (StringUtils.hasText(token)){
                 throw new IdempotentException("token不存在");
             }
         }

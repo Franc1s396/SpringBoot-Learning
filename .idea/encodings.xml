@@ -19,14 +19,27 @@
     <file url="file://$PROJECT_DIR$/SpringBoot-MybatisMulti/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-PageHelper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-RESTful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-RabbitMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-SessionSharing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Swagger3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Swagger3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-Transaction/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-Validation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-WebSocket/Chat02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-WebSocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamic_datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rate_limiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repeat_submit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-https/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-springbatch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcode/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

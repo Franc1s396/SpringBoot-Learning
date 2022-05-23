@@ -29,6 +29,19 @@
         <option value="$PROJECT_DIR$/SpringBoot-Validation/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-Actuator/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-FastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springbatch/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/RabbitMQ-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/model/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springcode/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/rate_limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/repeat_submit/pom.xml" />
       </list>
     </option>
   </component>

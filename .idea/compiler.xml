@@ -1,63 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="C:/MavenRepo/org/aspectj/aspectjtools/1.9.7/aspectjtools-1.9.7.jar" />
+    <option name="cmdLineParams" value="-Xlint:ignore -showWeaveInfo" />
+    <option name="delegateToJavac" value="true" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBoot-FileUpload" />
-        <module name="SpringBoot-Test" />
         <module name="Cache-Redis" />
-        <module name="SpringBoot-SessionSharing" />
+        <module name="RabbitMQ-provider" />
+        <module name="RabbitMQ-consumer" />
         <module name="Chat01" />
+        <module name="springboot-https" />
+        <module name="repeat_submit" />
         <module name="SpringBoot-CORS-2" />
         <module name="Chat02" />
         <module name="SpringBoot-Idempontent" />
         <module name="SpringBoot-Cache" />
+        <module name="SpringBoot-Exception" />
+        <module name="springcode" />
+        <module name="SpringBoot-ControllerAdvice" />
+        <module name="dynamic_datasource" />
+        <module name="rate_limiter" />
+        <module name="SpringBoot-JPA" />
+        <module name="springboot-springbatch" />
+        <module name="SpringBoot-Validation" />
+        <module name="model" />
+        <module name="SpringBoot-DevTools" />
+        <module name="SpringBoot-FileUpload" />
+        <module name="SpringBoot-Test" />
+        <module name="SpringBoot-SessionSharing" />
         <module name="SpringBoot-WebSocket" />
         <module name="SpringBoot-JSON" />
-        <module name="SpringBoot-Exception" />
         <module name="SpringBoot-RESTful" />
         <module name="SpringBoot-Swagger3" />
-        <module name="SpringBoot-ControllerAdvice" />
+        <module name="springboot-druid" />
+        <module name="SpringBoot-RabbitMQ" />
         <module name="SpringBoot-EhCache" />
-        <module name="SpringBoot-JPA" />
         <module name="SpringBoot-MybatisMulti" />
-        <module name="SpringBoot-Validation" />
         <module name="SpringBoot-FastDFS" />
         <module name="SpringBoot-CORS-1" />
-        <module name="SpringBoot-DevTools" />
         <module name="SpringBoot-PageHelper" />
         <module name="SpringBoot-Actuator" />
+        <module name="SpringBoot-Transaction" />
+        <module name="springboot-quartz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Cache-Redis" target="11" />
-      <module name="Chat01" target="11" />
-      <module name="Chat02" target="11" />
-      <module name="SpringBoot-Actuator" target="11" />
-      <module name="SpringBoot-Cache" target="11" />
-      <module name="SpringBoot-ControllerAdvice" target="11" />
-      <module name="SpringBoot-CORS-1" target="11" />
-      <module name="SpringBoot-CORS-2" target="11" />
-      <module name="SpringBoot-DevTools" target="11" />
-      <module name="SpringBoot-EhCache" target="11" />
-      <module name="SpringBoot-Exception" target="11" />
-      <module name="SpringBoot-FastDFS" target="11" />
-      <module name="SpringBoot-FileUpload" target="11" />
-      <module name="SpringBoot-Idempontent" target="11" />
-      <module name="SpringBoot-JPA" target="11" />
-      <module name="SpringBoot-JSON" target="11" />
-      <module name="SpringBoot-MybatisMulti" target="11" />
-      <module name="SpringBoot-PageHelper" target="11" />
-      <module name="SpringBoot-RESTful" target="11" />
-      <module name="SpringBoot-SessionSharing" target="11" />
-      <module name="SpringBoot-Swagger3" target="11" />
-      <module name="SpringBoot-Test" target="11" />
-      <module name="SpringBoot-Validation" target="11" />
-      <module name="SpringBoot-WebSocket" target="11" />
+      <module name="Cache-Redis" target="1.8" />
+      <module name="Chat01" target="1.8" />
+      <module name="Chat02" target="1.8" />
+      <module name="dynamic_datasource" target="11" />
+      <module name="model" target="1.8" />
+      <module name="RabbitMQ-consumer" target="1.8" />
+      <module name="RabbitMQ-provider" target="1.8" />
+      <module name="rate_limiter" target="11" />
+      <module name="repeat_submit" target="11" />
+      <module name="SpringBoot-Actuator" target="1.8" />
+      <module name="SpringBoot-Cache" target="1.8" />
+      <module name="SpringBoot-ControllerAdvice" target="1.8" />
+      <module name="SpringBoot-CORS-1" target="1.8" />
+      <module name="SpringBoot-CORS-2" target="1.8" />
+      <module name="SpringBoot-DevTools" target="1.8" />
+      <module name="springboot-druid" target="1.8" />
+      <module name="SpringBoot-EhCache" target="1.8" />
+      <module name="SpringBoot-Exception" target="1.8" />
+      <module name="SpringBoot-FastDFS" target="1.8" />
+      <module name="SpringBoot-FileUpload" target="1.8" />
+      <module name="springboot-https" target="1.8" />
+      <module name="SpringBoot-Idempontent" target="1.8" />
+      <module name="SpringBoot-JPA" target="1.8" />
+      <module name="SpringBoot-JSON" target="1.8" />
+      <module name="SpringBoot-MybatisMulti" target="1.8" />
+      <module name="SpringBoot-PageHelper" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
+      <module name="SpringBoot-RabbitMQ" target="11" />
+      <module name="SpringBoot-RESTful" target="1.8" />
+      <module name="SpringBoot-SessionSharing" target="1.8" />
+      <module name="springboot-springbatch" target="1.8" />
+      <module name="SpringBoot-Swagger3" target="1.8" />
+      <module name="SpringBoot-Test" target="1.8" />
+      <module name="SpringBoot-Transaction" target="1.8" />
+      <module name="SpringBoot-Validation" target="1.8" />
+      <module name="SpringBoot-WebSocket" target="1.8" />
+      <module name="springcode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -65,6 +97,8 @@
       <module name="Cache-Redis" options="-parameters" />
       <module name="Chat01" options="-parameters" />
       <module name="Chat02" options="-parameters" />
+      <module name="RabbitMQ-consumer" options="-parameters" />
+      <module name="RabbitMQ-provider" options="-parameters" />
       <module name="SpringBoot-Actuator" options="-parameters" />
       <module name="SpringBoot-CORS-1" options="-parameters" />
       <module name="SpringBoot-CORS-2" options="-parameters" />
@@ -81,11 +115,22 @@
       <module name="SpringBoot-MybatisMulti" options="-parameters" />
       <module name="SpringBoot-PageHelper" options="-parameters" />
       <module name="SpringBoot-RESTful" options="-parameters" />
+      <module name="SpringBoot-RabbitMQ" options="" />
       <module name="SpringBoot-SessionSharing" options="-parameters" />
       <module name="SpringBoot-Swagger3" options="-parameters" />
       <module name="SpringBoot-Test" options="-parameters" />
+      <module name="SpringBoot-Transaction" options="-parameters" />
       <module name="SpringBoot-Validation" options="-parameters" />
       <module name="SpringBoot-WebSocket" options="-parameters" />
+      <module name="dynamic_datasource" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="rate_limiter" options="-parameters" />
+      <module name="repeat_submit" options="-parameters" />
+      <module name="springboot-druid" options="-parameters" />
+      <module name="springboot-https" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-springbatch" options="-parameters" />
+      <module name="springcode" options="-parameters" />
     </option>
   </component>
 </project>

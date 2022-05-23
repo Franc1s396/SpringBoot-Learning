@@ -20,9 +20,9 @@ public class UserService2 {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @Transactional(propagation = Propagation.NEVER)
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void update() {
-        jdbcTemplate.update("update user set money = ? where username=?;", 1000, "lisi");
-//        int i = 1 / 0;
+        jdbcTemplate.update("update user set age = ? where id=?;", 1111, 1);
+        //int i = 1 / 0;
     }
 }
